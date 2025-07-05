@@ -1,33 +1,33 @@
-# 📘 Library Management System (C++ CLI Project)
+#  Library Management System (C++ CLI Project)
 
 This is a **console-based Library Management System** written in C++ as a self-project by **Ankit**, a student at **IIT Kanpur**. The system is designed to handle basic library operations like managing books, issuing/returning transactions, user role handling, and admin privileges.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 📖 **Book Management**
+-  **Book Management**
   - Add new books (admin only)
   - Display all books
   - Search books by title
 
-- 🔁 **Transaction Management**
+-  **Transaction Management**
   - Issue and return books (with auto-generated dates)
   - Borrow limit: 2 books per user
   - Return due in 30 days with overdue warning
 
-- 👤 **User Roles**
+-  **User Roles**
   - `Student`, `Faculty`, and `Admin` roles
   - Admin has special password-protected access
   - Each user can view their own transaction history
 
-- 📁 **File Persistence**
+-  **File Persistence**
   - Books and transactions are saved to CSV files
   - All data is loaded and saved automatically
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Language: **C++**
 - File Handling: CSV via standard C++ file streams
@@ -35,7 +35,7 @@ This is a **console-based Library Management System** written in C++ as a self-p
 
 ---
 
-## 📂 Folder Structure
+##  Folder Structure
 LibraryManagementSystem_CPP/
 ├── src/
 │ ├── main.cpp
@@ -51,7 +51,7 @@ LibraryManagementSystem_CPP/
 
 ---
 
-## 🔓 Admin Access
+##  Admin Access
 
 To log in as admin:
 - **User Type**: `Admin`
@@ -59,7 +59,7 @@ To log in as admin:
 
 ---
 
-## 🧑‍💻 How to Run
+##  How to Run
 
 ### Compile:
 ```bash
